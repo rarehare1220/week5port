@@ -14,6 +14,14 @@
 		AABC43ED1AE7C8E600734198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABC43EC1AE7C8E600734198 /* Images.xcassets */; };
 		AABC43F01AE7C8E600734198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABC43EE1AE7C8E600734198 /* LaunchScreen.xib */; };
 		AABC43FC1AE7C8E700734198 /* week5portTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC43FB1AE7C8E700734198 /* week5portTests.m */; };
+		AABC440A1AE7C96200734198 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABC44081AE7C96200734198 /* ReminderModel.xcdatamodeld */; };
+		AABC44131AE7F26500734198 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44121AE7F26500734198 /* Reminder.m */; };
+		AABC44161AE7F26500734198 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44151AE7F26500734198 /* ReminderList.m */; };
+		AABC44181AE7F4CC00734198 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABC44171AE7F4CC00734198 /* CoreData.framework */; };
+		AABC441B1AE8012100734198 /* ReminderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC441A1AE8012100734198 /* ReminderListController.m */; };
+		AABC441E1AE8014200734198 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC441D1AE8014200734198 /* AddReminderViewController.m */; };
+		AABC44211AE8016700734198 /* ViewReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44201AE8016700734198 /* ViewReminderViewController.m */; };
+		AABC44241AE8018100734198 /* ReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC44231AE8018100734198 /* ReminderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,20 @@
 		AABC43F51AE7C8E700734198 /* week5portTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week5portTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC43FA1AE7C8E700734198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AABC43FB1AE7C8E700734198 /* week5portTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week5portTests.m; sourceTree = "<group>"; };
+		AABC44091AE7C96200734198 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		AABC44111AE7F26500734198 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		AABC44121AE7F26500734198 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		AABC44141AE7F26500734198 /* ReminderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderList.h; sourceTree = "<group>"; };
+		AABC44151AE7F26500734198 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderList.m; sourceTree = "<group>"; };
+		AABC44171AE7F4CC00734198 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AABC44191AE8012100734198 /* ReminderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderListController.h; sourceTree = "<group>"; };
+		AABC441A1AE8012100734198 /* ReminderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderListController.m; sourceTree = "<group>"; };
+		AABC441C1AE8014200734198 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		AABC441D1AE8014200734198 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		AABC441F1AE8016700734198 /* ViewReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReminderViewController.h; sourceTree = "<group>"; };
+		AABC44201AE8016700734198 /* ViewReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReminderViewController.m; sourceTree = "<group>"; };
+		AABC44221AE8018100734198 /* ReminderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderCell.h; sourceTree = "<group>"; };
+		AABC44231AE8018100734198 /* ReminderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABC44181AE7F4CC00734198 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 		AABC43D31AE7C8E600734198 = {
 			isa = PBXGroup;
 			children = (
+				AABC44171AE7F4CC00734198 /* CoreData.framework */,
 				AABC43DE1AE7C8E600734198 /* week5port */,
 				AABC43F81AE7C8E700734198 /* week5portTests */,
 				AABC43DD1AE7C8E600734198 /* Products */,
@@ -86,9 +110,22 @@
 				AABC43E61AE7C8E600734198 /* ViewController.h */,
 				AABC43E71AE7C8E600734198 /* ViewController.m */,
 				AABC43E91AE7C8E600734198 /* Main.storyboard */,
+				AABC44191AE8012100734198 /* ReminderListController.h */,
+				AABC441A1AE8012100734198 /* ReminderListController.m */,
 				AABC43EC1AE7C8E600734198 /* Images.xcassets */,
 				AABC43EE1AE7C8E600734198 /* LaunchScreen.xib */,
 				AABC43DF1AE7C8E600734198 /* Supporting Files */,
+				AABC44081AE7C96200734198 /* ReminderModel.xcdatamodeld */,
+				AABC44141AE7F26500734198 /* ReminderList.h */,
+				AABC44151AE7F26500734198 /* ReminderList.m */,
+				AABC44111AE7F26500734198 /* Reminder.h */,
+				AABC44121AE7F26500734198 /* Reminder.m */,
+				AABC441C1AE8014200734198 /* AddReminderViewController.h */,
+				AABC441D1AE8014200734198 /* AddReminderViewController.m */,
+				AABC441F1AE8016700734198 /* ViewReminderViewController.h */,
+				AABC44201AE8016700734198 /* ViewReminderViewController.m */,
+				AABC44221AE8018100734198 /* ReminderCell.h */,
+				AABC44231AE8018100734198 /* ReminderCell.m */,
 			);
 			path = week5port;
 			sourceTree = "<group>";
@@ -220,8 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABC43E81AE7C8E600734198 /* ViewController.m in Sources */,
+				AABC440A1AE7C96200734198 /* ReminderModel.xcdatamodeld in Sources */,
+				AABC44211AE8016700734198 /* ViewReminderViewController.m in Sources */,
+				AABC441B1AE8012100734198 /* ReminderListController.m in Sources */,
 				AABC43E51AE7C8E600734198 /* AppDelegate.m in Sources */,
+				AABC441E1AE8014200734198 /* AddReminderViewController.m in Sources */,
+				AABC44161AE7F26500734198 /* ReminderList.m in Sources */,
+				AABC44131AE7F26500734198 /* Reminder.m in Sources */,
 				AABC43E21AE7C8E600734198 /* main.m in Sources */,
+				AABC44241AE8018100734198 /* ReminderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +466,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AABC44081AE7C96200734198 /* ReminderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AABC44091AE7C96200734198 /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = AABC44091AE7C96200734198 /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AABC43D41AE7C8E600734198 /* Project object */;
 }
